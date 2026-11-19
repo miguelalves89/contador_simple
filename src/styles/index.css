@@ -9,3 +9,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.counter-container{
+    background: black;
+     padding: 20px;
+    min-height: 200px;
+}
+
+.counter-item{
+   
+    font-size: 50px;
+    color: white;
+     width: 100px;
+    height: 150px;
+    background-color: #111;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container .row {
+    --bs-gutter-x: 0;
+    gap: 6px;
+}
+.clock-icon{
+    font-size: 60px;
+}
